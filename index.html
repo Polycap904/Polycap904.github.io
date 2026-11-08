@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Your Name – Web developer</title>
+  <meta name="description" content="Web developer building apps that run live. Browse my projects and get in touch.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700&family=Syne:wght@600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip" href="#work">Skip to projects</a>
+
+  <header class="bar">
+    <a class="logo" href="#top">Your Name</a>
+    <nav aria-label="Main">
+      <a href="#work">Work</a>
+      <a href="#stack">Stack</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+      <button id="theme" class="toggle" type="button" aria-label="Switch colour theme"></button>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <p class="avail"><span class="dot" aria-hidden="true"></span>Open to projects and roles</p>
+      <h1>
+        <span class="line"><span>I build web apps</span></span>
+        <span class="line"><span>and put them</span></span>
+        <span class="line"><span>online.</span></span>
+      </h1>
+      <p class="lede">Developer who takes an idea from an empty folder to a live link you can open and try. Every project below is hosted, not just screenshots.</p>
+      <div class="actions">
+        <a class="btn" href="#work">See the work</a>
+        <a class="btn alt" href="#contact">Say hello</a>
+      </div>
+    </section>
+
+    <section id="work" class="block" aria-labelledby="work-h">
+      <h2 id="work-h">Work</h2>
+      <ul id="projects" class="projects"></ul>
+    </section>
+
+    <section id="stack" class="block" aria-labelledby="stack-h">
+      <h2 id="stack-h">Stack</h2>
+      <div class="stack">
+        <div>
+          <h3>Front end</h3>
+          <p>HTML, CSS, JavaScript, React</p>
+        </div>
+        <div>
+          <h3>Back end</h3>
+          <p>Node.js, Express, REST APIs</p>
+        </div>
+        <div>
+          <h3>Data</h3>
+          <p>PostgreSQL, SQLite, Firebase</p>
+        </div>
+        <div>
+          <h3>Tools</h3>
+          <p>Git, GitHub, VS Code, Vercel</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="block about" aria-labelledby="about-h">
+      <h2 id="about-h">About</h2>
+      <div>
+        <p class="big">I like small, fast, useful software, the kind that does one job well and loads instantly.</p>
+        <p>Write a few sentences here about where you’re based, how you got into coding, and what you want to build next. Keep it human and specific.</p>
+      </div>
+    </section>
+
+    <section id="contact" class="block contact" aria-labelledby="contact-h">
+      <h2 id="contact-h">Contact</h2>
+      <a class="mail" href="mailto:nyachiropolycap@example.com">you@example.com</a>
+      <p class="links">
+        <a href="https://github.com/Quavo_poly">GitHub</a>
+        <a href="https://www.linkedin.com/in/Polycap Nyachiro">LinkedIn</a>
+      </p>
+    </section>
+  </main>
+
+  <footer class="foot">© <span id="year">2026</span> Your Name. Built by hand and hosted on GitHub Pages.</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
